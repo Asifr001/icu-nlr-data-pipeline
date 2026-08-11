@@ -13,6 +13,8 @@ Calculates the Neutrophil-to-Lymphocyte Ratio (NLR), a clinically meaningful inf
 
 Produces a full suite of exploratory visualizations — distribution plots, missingness heatmaps by year, and individual patient trajectory plots — to characterize data quality and biomarker behavior before any formal modeling begins
 
+Tech stack: Python (pandas, NumPy, Matplotlib), Graphviz (data flow diagrams)
+
 💡 Why this matters: In clinical data science, the pipeline that gets you to clean data is often more consequential — and more error-prone — than the modeling that comes after. This project documents that process transparently, including every exclusion and validation decision, so the resulting dataset is fully reproducible and audit-ready.
 
 🚀 Possible extensions: This validation framework generalizes to any multi-analyte lab panel (e.g., liver function panels, metabolic panels) where physiologic constraints between values can be used as a built-in data quality check. It could also be adapted into an automated data quality monitoring dashboard for ongoing clinical data pipelines.
