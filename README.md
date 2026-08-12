@@ -1,4 +1,3 @@
-# icu-nlr-data-pipeline
 ## ICU Neutrophil-to-Lymphocyte Ratio (NLR): Data Engineering Pipeline
 
 Real clinical lab data is rarely analysis-ready. This project tackles that head-on: I built an end-to-end pipeline that takes raw, long-format ICU laboratory records — full of duplicate entries, inconsistent unit labels, and non-numeric flags like "QNS" or "CLOT" and transforms them into a clean, validated, longitudinal dataset ready for statistical modeling.
